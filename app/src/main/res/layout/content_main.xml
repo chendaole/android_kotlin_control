@@ -14,29 +14,26 @@
         android:layout_height="match_parent">
 
         <LinearLayout
-            android:orientation="horizontal"
-            android:layout_weight="1"
-            android:background="@color/colorAccent"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/icebox"
-                android:background="@android:color/transparent"
-                android:text="冰箱"
-                android:textSize="30dp"
-                android:layout_weight="1"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/icebox"
+                android:textSize="40sp" />
 
             <Button
                 android:id="@+id/airCondition"
-                android:background="@android:color/transparent"
-                android:text="空调"
-                android:textSize="30dp"
-                android:layout_weight="1"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/airCondition"
+                android:textSize="40sp" />
 
         </LinearLayout>
 
@@ -47,6 +44,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <Button
+                android:id="@+id/icebox1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/icebox"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/airCondition1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/airCondition"
+                android:textSize="40sp" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -55,6 +68,22 @@
             android:background="@color/colorAccent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/icebox2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/icebox"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/airCondition2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/airCondition"
+                android:textSize="40sp" />
 
         </LinearLayout>
 
