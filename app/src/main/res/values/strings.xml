@@ -3,4 +3,8 @@
     <string name="action_settings">Settings</string>
     <string name="icebox">冰箱</string>
     <string name="airCondition">空调</string>
+    <string name="tv">电视机</string>
+    <string name="washer">洗衣机</string>
+    <string name="waterHeater">热水器</string>
+    <string name="electricCooker">电饭煲</string>
 </resources>

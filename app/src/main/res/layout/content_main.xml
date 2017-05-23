@@ -21,17 +21,17 @@
 
             <Button
                 android:id="@+id/icebox"
+                android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:text="@string/icebox"
                 android:textSize="40sp" />
 
             <Button
                 android:id="@+id/airCondition"
+                android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:text="@string/airCondition"
                 android:textSize="40sp" />
 
@@ -45,19 +45,19 @@
             android:layout_height="wrap_content">
 
             <Button
-                android:id="@+id/icebox1"
+                android:id="@+id/tv"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/icebox"
+                android:text="@string/tv"
                 android:textSize="40sp" />
 
             <Button
-                android:id="@+id/airCondition1"
+                android:id="@+id/washer"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/airCondition"
+                android:text="@string/washer"
                 android:textSize="40sp" />
 
         </LinearLayout>
@@ -70,19 +70,19 @@
             android:layout_height="wrap_content">
 
             <Button
-                android:id="@+id/icebox2"
+                android:id="@+id/waterHeater"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/icebox"
+                android:text="@string/waterHeater"
                 android:textSize="40sp" />
 
             <Button
-                android:id="@+id/airCondition2"
+                android:id="@+id/electricCooker"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/airCondition"
+                android:text="@string/electricCooker"
                 android:textSize="40sp" />
 
         </LinearLayout>
