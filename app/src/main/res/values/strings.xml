@@ -7,4 +7,6 @@
     <string name="washer">洗衣机</string>
     <string name="waterHeater">热水器</string>
     <string name="electricCooker">电饭煲</string>
+    <string name="title_activity_devices_">devices_Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>
